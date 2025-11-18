@@ -45,7 +45,7 @@ choco install nodejs
 git clone https://github.com/FurkanSelimKalkan/To-Do-Tracker.git
 ```
 
-4.  Open the project in **VS Code** or **IntelliJ**\
+4.  Open the project in **VS Code**\
     → Select the folder `To-Do-Tracker/`
 
 ------------------------------------------------------------------------
