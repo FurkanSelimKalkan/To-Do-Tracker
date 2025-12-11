@@ -1,6 +1,8 @@
 <script setup>
 import MyButton from './components/MyButton.vue';
+import TaskNumber from './components/TaskNumber.vue';
 import TaskList from './components/TaskList.vue';
+import TaskCompleted from './components/TaskCompleted.vue';
 </script>
 
 <template>
@@ -15,12 +17,28 @@ import TaskList from './components/TaskList.vue';
     </thead>
     <tbody>
       <tr>
-        <td>1</td>
-        <td>todo</td>
-        <td>false</td>
+        <td><TaskNumber/></td>
+        <td><TaskList/></td>
+        <td><TaskCompleted/></td>
       </tr>
     </tbody>
   </table>
   <MyButton/>
-  <TaskList/>
 </template>
+
+<style>
+table {
+border-collapse: collapse;
+margin:auto;
+width: 75%;
+}
+td, th {
+border-width: 3px;
+border-color: black;
+border-style: solid;
+padding:10px;
+}
+ol{
+  text-align: left;
+}
+</style>
