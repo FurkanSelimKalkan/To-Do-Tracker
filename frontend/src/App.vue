@@ -17,28 +17,37 @@ import TaskCompleted from './components/TaskCompleted.vue';
     </thead>
     <tbody>
       <tr>
-        <td><TaskNumber/></td>
-        <td><TaskList/></td>
-        <td><TaskCompleted/></td>
+        <td>
+          <TaskNumber />
+        </td>
+        <td>
+          <TaskList />
+        </td>
+        <td>
+          <TaskCompleted />
+        </td>
       </tr>
     </tbody>
   </table>
-  <MyButton/>
+  <MyButton />
 </template>
 
 <style>
 table {
-border-collapse: collapse;
-margin:auto;
-width: 75%;
+  border-collapse: collapse;
+  margin: auto;
+  width: 75%;
 }
-td, th {
-border-width: 3px;
-border-color: black;
-border-style: solid;
-padding:10px;
+
+td,
+th {
+  border-width: 3px;
+  border-color: black;
+  border-style: solid;
+  padding: 10px;
 }
-ol{
+
+ol {
   text-align: left;
 }
 </style>
